@@ -1,0 +1,176 @@
+:root {
+    --main-color: khaki;
+    --second-color: #fe1493;
+    --white-color: #fff;
+    --black-color: #222;
+    --gray-color: #666;
+    --med-gray-color: #999;
+    --light-gray-color: #ddd;
+    --under: rgb(46,155,217);
+    --main-font: 'Poppins', sans-serif;
+}
+
+.section {
+    padding: 5rem 0 7rem 0;
+    overflow-x: hidden;   
+}
+
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0 3rem;
+    text-align: justify;
+    text-indent: 1.5rem;
+}
+
+.title {
+    margin-bottom: 4rem;
+    text-align: center;
+}
+
+.title h2 {
+    position: relative;
+    display: inline-block;
+    font-size: 4rem;
+}
+
+.title h2::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: -20%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: .4rem;
+    background-color: var(--under);
+}
+
+.about .left p {
+    margin-top: 1rem;
+    line-height: 1.7;
+    text-indent: 15px;
+}
+
+.about .right img {
+    height: 30rem;
+    margin-top: 2rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+.section {
+    padding: 5rem 2rem 7rem 2rem;
+}
+      
+.about .right img {
+    margin-top: 8.5rem;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.about {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+}
+    
+.about p:last-child {
+    display: none;
+}
+    
+.about .left h2 {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 3.6rem;
+}
+
+.title h2::after {
+    width: 20%;
+}
+
+.about .left p {
+    text-align: justify;
+}
+    
+.about .right img {
+    height: 25rem;
+    width: 70vw;   
+    margin-top: 0;
+    margin-left: 6rem;
+}
+}
+
+@media only screen and (max-width: 425px) {
+.section {
+    padding: 5rem 0 7rem 0;
+}
+ 
+.about {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.about .left h2 {
+    font-size: 3.5rem;
+}
+
+.title h2::after {
+    width: 30%;
+}
+    
+.about .right img {
+    height: 25rem;
+    width: 70vw;   
+    margin: 1rem 2rem;
+}
+}
+
+@media only screen and (max-width: 375px) {
+.about .left h2 {
+    font-size: 3rem;
+}
+
+.about .left p {
+    margin-top: .5rem;
+    font-size: 1.5rem;
+}
+
+.about .right img {
+    width: 80%;   
+}
+}
+
+@media only screen and (max-width: 320px) {
+.container {
+    max-width: 114rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.section {
+    margin: 0 auto;
+}
+
+.about .left h2 {
+    font-size: 2.9rem;
+    margin-bottom: 0;
+}
+
+.about .left p {
+    margin-bottom: 2rem;
+}
+
+.about .right img {
+    height: 100%;
+    margin: -10px;
+    width: 100%;
+    border-radius: 0;   
+}
+}

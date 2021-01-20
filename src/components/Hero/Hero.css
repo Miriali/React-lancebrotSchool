@@ -1,0 +1,149 @@
+:root {
+  --main-color: khaki;
+  --second-color: #fe1493;
+  --white-color: #fff;
+  --black-color: #222;
+  --gray-color: #666;
+  --med-gray-color: #999;
+  --light-gray-color: #ddd;
+  --under: rgb(46,155,217);
+  --main-font: 'Poppins', sans-serif;
+}
+
+.hero { 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background: url('../img/base.jpg') center/cover;
+  object-fit: contain; 
+  z-index: 888;
+  opacity: 0.85;
+  box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+}
+
+.hero .content {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+}
+
+.content h1 {
+  font-weight: 700;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+  color: var(--white-color);
+  text-align: center;
+  text-shadow: 1px -2px var(--second-color), 
+    			     0 10px 10px rgba(31, 30, 30, 0.22);
+}
+
+.content p {
+  font-size: 1.8rem;
+  line-height: 2;
+  color: var(--white-color);
+  text-align: center;
+  text-shadow: 1px -2px var(--black-color), 
+               0 10px 20px var(--black-color);
+}
+
+.hero-btns {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 1024px) {
+.hero {
+  height: 80vh;
+}
+    
+.hero .content {
+  position: absolute;
+  top: 50%;
+}
+    
+.content h1 {
+  font-weight: 600;
+  font-size: 4.3rem;    
+}
+    
+.content p {
+  font-size: 1.8rem;
+  text-shadow: 1px -2px var(--black-color), 
+               0 10px 20px var(--black-color);
+}
+}
+
+@media only screen and (max-width: 768px) {
+.hero {
+  height: 80vh;
+}
+      
+.hero .content {
+  top: 50%;
+  width: 80%;
+}
+      
+.content h1 {
+  font-weight: 600;
+  font-size: 3.6rem;    
+}
+      
+.content p {
+  font-size: 1.5rem;
+  text-shadow: 1px -2px var(--black-color), 
+               0 10px 20px var(--black-color);
+}
+}
+
+@media only screen and (max-width: 375px) {
+.hero {
+  height: 70vh;
+}
+  
+.hero .content {
+  top: 45%;
+  width: 85%;
+}
+  
+.content h1 {
+  font-weight: 600;
+  font-size: 2.7rem;
+}
+  
+.content p {
+  font-size: 1.4rem;
+  text-shadow: 1px -2px var(--black-color), 
+               0 10px 10px rgba(7, 7, 7, 0.22);
+}
+}
+
+@media only screen and (max-width: 320px) {
+.hero {
+  height: 60vh;
+}
+
+.hero .content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 95%;
+}
+
+.content h1 {
+  font-weight: 600;
+  font-size: 2.7rem;
+}
+
+.content p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  text-shadow: 1px -2px var(--black-color), 
+    			     0 10px 10px rgba(7, 7, 7, 0.22);
+}
+}

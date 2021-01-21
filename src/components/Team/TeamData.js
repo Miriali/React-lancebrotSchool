@@ -9,7 +9,7 @@ function TeamData(props) {
           <figure className='staff__item__pic-wrap'>
             <img
               className='staff__item__img'
-              alt='Staff image'
+              alt='Staff'
               src={props.src}
             />
           </figure>

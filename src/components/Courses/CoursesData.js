@@ -9,7 +9,7 @@ function CoursesData(props) {
           <figure className='cards__item__pic-wrap' data-category={props.label}>
             <img
               className='cards__item__img'
-              alt='course image'
+              alt='course'
               src={props.src}
             />
           </figure>

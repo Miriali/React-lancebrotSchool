@@ -52,7 +52,7 @@ function Footer() {
           </div>
         </div>
         <div className="developed">
-          <p>Designed and Developed by <a href="https://twitter.com/miricailopez" target="_blank">Miriali López</a></p>
+          <p>Designed and Developed by <a href="https://twitter.com/miricailopez">Miriali López</a></p>
         </div>
       </section>
     </div>

@@ -1,6 +1,6 @@
 # Lancebrot Bakery School :baguette_bread: :open_file_folder:
 
-Hello github friends! : octocat:
+Hello github friends! :octocat:
 
 I share with you the code of the Lancebrot bakery school website, it consists of several sections such as the courses section and the school login, the project was developed using reactjs in addition to: react-icons, react-router-dom, react-tabs, and styled-components. The project in addition the project is attractive, responsive and at the same time is easy to navigate.
 

@@ -6,9 +6,11 @@ I share with you the code of the Lancebrot bakery school website, it consists of
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5d1f761f-f8a6-4824-9a5c-a1c7011b6eb7/deploy-status)](https://app.netlify.com/sites/lancebrotschool/deploys) :point_right: https://lancebrotschool.netlify.app/
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e9b29011-bc18-4159-9804-0730aa5d1cb8/deploy-status)](https://app.netlify.com/sites/lancebrotschool/deploys) :point_right: https://lancebrotschool.netlify.app/
+
 ### Requirements
 Basic knowledge of:
+
 :star2: Javascript
 
 :star2: Reactjs
